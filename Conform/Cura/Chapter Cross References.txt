@@ -1,0 +1,170 @@
+1
+\chapter{What is Risk in a Veterinary Context?}
+\label{chap:What is Risk in a Veterinary Context?}
+~\ref{chap:What is Risk in a Veterinary Context?}
+
+2
+\chapter{The Regulatory and Professional Framework}
+\label{chap:The Regulatory and Professional Framework}
+~\ref{chap:The Regulatory and Professional Framework}
+
+3
+\chapter{The Five-Step Risk Assessment Method Applied to a Veterinary Setting}
+\label{chap:The Five-Step Risk Assessment Method Applied to a Veterinary Setting}
+~\ref{chap:The Five-Step Risk Assessment Method Applied to a Veterinary Setting}
+
+4
+\chapter{Roles, Responsibilities and Governance in a Veterinary Practice}
+\label{chap:Roles, Responsibilities and Governance in a Veterinary Practice}
+~\ref{chap:Roles, Responsibilities and Governance in a Veterinary Practice}
+
+5
+\chapter{Anaesthesia and Sedation Risk Assessment}
+\label{chap:Anaesthesia and Sedation Risk Assessment}
+~\ref{chap:Anaesthesia and Sedation Risk Assessment}
+
+6
+\chapter{Surgical Risk Assessment}
+\label{chap:Surgical Risk Assessment}
+~\ref{chap:Surgical Risk Assessment}
+
+7
+\chapter{Diagnostic Imaging Risk Assessment}
+\label{chap:Diagnostic Imaging Risk Assessment}
+~\ref{chap:Diagnostic Imaging Risk Assessment}
+
+8
+\chapter{In-house Laboratory and Point-of-Care Diagnostics Risk Assessment}
+\label{chap:In-house Laboratory and Point-of-Care Diagnostics Risk Assessment}
+~\ref{chap:In-house Laboratory and Point-of-Care Diagnostics Risk Assessment}
+
+9
+\chapter{Hospitalisation, Critical Care and Out-of-Hours Risk Assessment}
+\label{chap:Hospitalisation, Critical Care and Out-of-Hours Risk Assessment}
+~\ref{chap:Hospitalisation, Critical Care and Out-of-Hours Risk Assessment}
+
+10
+\chapter{Euthanasia and End-of-Life Risk Assessment}
+\label{chap:Euthanasia and End-of-Life Risk Assessment}
+~\ref{chap:Euthanasia and End-of-Life Risk Assessment}
+
+11
+\chapter{Veterinary Medicines Risk Assessment}
+\label{chap:Veterinary Medicines Risk Assessment}
+~\ref{chap:Veterinary Medicines Risk Assessment}
+
+12
+\chapter{Controlled Drugs Risk Assessment}
+\label{chap:Controlled Drugs Risk Assessment}
+~\ref{chap:Controlled Drugs Risk Assessment}
+
+13
+\chapter{Cytotoxic, Hormonal and Hazardous Medicines Risk Assessment}
+\label{chap:Cytotoxic, Hormonal and Hazardous Medicines Risk Assessment}
+~\ref{chap:Cytotoxic, Hormonal and Hazardous Medicines Risk Assessment}
+
+14
+\chapter{General Workplace H\&S Risk Assessment for a Veterinary Practice}
+\label{chap:General Workplace H\&S Risk Assessment for a Veterinary Practice}
+~\ref{chap:General Workplace H\&S Risk Assessment for a Veterinary Practice}
+
+15
+\chapter{Biological Hazards and Zoonoses Risk Assessment}
+\label{chap:Biological Hazards and Zoonoses Risk Assessment}
+~\ref{chap:Biological Hazards and Zoonoses Risk Assessment}
+
+16
+\chapter{Sharps, Needlestick, Bite and Scratch Injury Risk Assessment}
+\label{chap:Sharps, Needlestick, Bite and Scratch Injury Risk Assessment}
+~\ref{chap:Sharps, Needlestick, Bite and Scratch Injury Risk Assessment}
+
+17
+\chapter{Manual Handling, Patient Restraint and Lifting Risk Assessment}
+\label{chap:Manual Handling, Patient Restraint and Lifting Risk Assessment}
+~\ref{chap:Manual Handling, Patient Restraint and Lifting Risk Assessment}
+
+18
+\chapter{Ionising and Non-Ionising Radiation Risk Assessment}
+\label{chap:Ionising and Non-Ionising Radiation Risk Assessment}
+~\ref{chap:Ionising and Non-Ionising Radiation Risk Assessment}
+
+19
+\chapter{Anaesthetic Gas Scavenging and Workplace Exposure Risk Assessment}
+\label{chap:Anaesthetic Gas Scavenging and Workplace Exposure Risk Assessment}
+~\ref{chap:Anaesthetic Gas Scavenging and Workplace Exposure Risk Assessment}
+
+20
+\chapter{Fire Safety Risk Assessment for Veterinary Premises}
+\label{chap:Fire Safety Risk Assessment for Veterinary Premises}
+~\ref{chap:Fire Safety Risk Assessment for Veterinary Premises}
+
+21
+\chapter{Infection Prevention, Biosecurity and Practice Hygiene Risk Assessment}
+\label{chap:Infection Prevention, Biosecurity and Practice Hygiene Risk Assessment}
+~\ref{chap:Infection Prevention, Biosecurity and Practice Hygiene Risk Assessment}
+
+22
+\chapter{Clinical and Hazardous Waste Risk Assessment}
+\label{chap:Clinical and Hazardous Waste Risk Assessment}
+~\ref{chap:Clinical and Hazardous Waste Risk Assessment}
+
+23
+\chapter{Equipment, Autoclaves and Pressure Systems Risk Assessment}
+\label{chap:Equipment, Autoclaves and Pressure Systems Risk Assessment}
+~\ref{chap:Equipment, Autoclaves and Pressure Systems Risk Assessment}
+
+24
+\chapter{Lone Working, Ambulatory and Equine/Farm-Visit Risk Assessment}
+\label{chap:Lone Working, Ambulatory and Equine/Farm-Visit Risk Assessment}
+~\ref{chap:Lone Working, Ambulatory and Equine/Farm-Visit Risk Assessment}
+
+25
+\chapter{Workforce Wellbeing — Stress, Burnout, Compassion Fatigue and Suicide Risk Assessment}
+\label{chap:Workforce Wellbeing — Stress, Burnout, Compassion Fatigue and Suicide Risk Assessment}
+~\ref{chap:Workforce Wellbeing — Stress, Burnout, Compassion Fatigue and Suicide Risk Assessment}
+
+26
+\chapter{Aggressive Animals, Difficult Clients and Violence at Work Risk Assessment}
+\label{chap:Aggressive Animals, Difficult Clients and Violence at Work Risk Assessment}
+~\ref{chap:Aggressive Animals, Difficult Clients and Violence at Work Risk Assessment}
+
+27
+\chapter{Data Protection, Clinical Records and Cyber Risk Assessment}
+\label{chap:Data Protection, Clinical Records and Cyber Risk Assessment}
+~\ref{chap:Data Protection, Clinical Records and Cyber Risk Assessment}
+
+28
+\chapter{Financial, Insurance, Indemnity and Business Continuity Risk Assessment}
+\label{chap:Financial, Insurance, Indemnity and Business Continuity Risk Assessment}
+~\ref{chap:Financial, Insurance, Indemnity and Business Continuity Risk Assessment}
+
+29
+\chapter{Animal Welfare and Ethical Risk Assessment}
+\label{chap:Animal Welfare and Ethical Risk Assessment}
+~\ref{chap:Animal Welfare and Ethical Risk Assessment}
+
+30
+\chapter{Building a Risk-Mature Veterinary Practice — Audit, Cadence and Continuous Improvement}
+\label{chap:Building a Risk-Mature Veterinary Practice — Audit, Cadence and Continuous Improvement}
+~\ref{chap:Building a Risk-Mature Veterinary Practice — Audit, Cadence and Continuous Improvement}
+
+
+Appendix A
+\chapter{Sample Risk Assessment Templates}
+\label{chap:Sample Risk Assessment Templates}
+~\ref{chap:Sample Risk Assessment Templates}
+
+Appendix B
+\chapter{Cadence Matrix}
+\label{chap:Cadence Matrix}
+~\ref{chap:Cadence Matrix}
+
+Appendix C
+\chapter{Glossary}
+\label{chap:Glossary}
+~\ref{chap:Glossary}
+
+Appendix D
+\chapter{Selected Legislation and Guidance References}
+\label{chap:Selected Legislation and Guidance References}
+~\ref{chap:Selected Legislation and Guidance References}
