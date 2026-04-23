@@ -1,0 +1,123 @@
+\documentclass[oneside]{book}
+
+% Packages
+\usepackage{fontspec}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{titlesec}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm,right=2.5cm]{geometry}
+
+% paragraph management, space after each with no first line indent
+\usepackage{parskip}
+
+% provides formatting for coloured bars etc
+\usepackage{tcolorbox}
+\usepackage{mdframed}
+\usepackage{enumitem}
+\usepackage{xparse}
+\usepackage{changepage}
+
+\usepackage{tabularx}
+\usepackage{booktabs}        % For nicer horizontal rules
+\usepackage{float}
+
+\tcbuselibrary{skins}
+
+% paragraph management, space after each with no first line indent
+\setlength{\parskip}{14pt}   % Adjust to taste
+
+\newmdenv[
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  leftline=true,
+  linewidth=3pt,
+  linecolor=gray!60,
+  backgroundcolor=white,
+  leftmargin=20pt,
+  rightmargin=20pt,
+  innerleftmargin=10pt,
+  innertopmargin=4pt,
+  innerbottommargin=4pt,
+  skipabove=12pt,
+  skipbelow=12pt,
+  fontcolor=black,
+]{quotebar}
+
+\setmainfont{TeX Gyre Heros}
+
+% Format: smaller font, bold, with chapter number
+\titleformat{\chapter}[hang]
+  {\normalfont\Large\bfseries}   % <-- Change \Large to suit your preference
+  {\thechapter}
+  {10pt}                         % Space between "Chapter X" label and title text
+  {}                             % Code before title text
+
+% Spacing: {left}{space ABOVE title}{space BELOW title}
+\titlespacing*{\chapter}
+  {0pt}     % left indent
+  {0cm}    % space ABOVE (adjust to taste)
+  {12pt}    % space BELOW — small gap after chapter title
+
+\titleformat{\paragraph}[runin]{\normalfont}{\theparagraph}{1em}{}
+
+\pagestyle{plain}
+
+\begin{document}
+\include{01_Primary/commands}
+
+\title{
+  {\Huge\bfseries Prudentia} \\[10pt]
+  {\Large The Art Of Staying Risk Free}
+}
+\author{Paul Stringer.}
+\date{}
+\maketitle
+\include{Introduction/Introduction}
+%\tableofcontents
+\paragraph{TOC Goes Here}
+\newpage
+\include{Part1/Part1}
+\include{Part1/Chapter1}
+\include{Part1/Chapter2}
+\include{Part1/Chapter3}
+\include{Part1/Chapter4}
+\include{Part2/Part2}
+\include{Part2/Chapter5}
+\include{Part2/Chapter6}
+\include{Part3/Part3}
+\include{Part3/Chapter7}
+\include{Part3/Chapter8}
+\include{Part3/Chapter9}
+\include{Part3/Chapter10}
+\include{Part3/Chapter11}
+\include{Part3/Chapter12}
+\include{Part4/Part4}
+\include{Part4/Chapter13}
+\include{Part4/Chapter14}
+\include{Part5/Part5}
+\include{Part5/Chapter15}
+\include{Part5/Chapter16}
+\include{Part6/Part6}
+\include{Part6/Chapter17}
+\include{Part6/Chapter18}
+\include{Part6/Chapter19}
+\include{Part6/Chapter20}
+\include{Part6/Chapter21}
+\include{Part6/Chapter22}
+\include{Part6/Chapter23}
+\include{Part6/Chapter24}
+\include{Part6/Chapter25}
+\include{Part7/Part7}
+\include{Part7/Chapter26}
+\include{Part7/Chapter27}
+\include{Part7/Chapter28}
+\include{Part8/Part8}
+\include{Part8/Chapter29}
+\include{Part8/Chapter30}
+%\include{X_Appendices/Appendices}
+%\include{X_Appendices/AppendixA}
+%\include{X_Appendices/AppendixB}
+%\include{X_Appendices/AppendixC}
+%\include{X_Appendices/AppendixD}
+%\include{X_Appendices/AppendixE}
+\end{document}

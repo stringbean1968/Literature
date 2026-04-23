@@ -1,0 +1,302 @@
+\chapter{Third-Party and Supply Chain Risk Assessment}
+\label{chap:Third-Party and Supply Chain Risk Assessment}
+
+%---------------------------- SECTION ----------------------------
+\section{The Risk Beyond Your Walls}
+\paragraph{There is a fundamental tension at the heart of modern organisational life. The drive for efficiency, specialisation, and flexibility has led organisations across every sector to outsource, partner, and collaborate at a scale and depth that would have been unimaginable a generation ago. Cloud computing, global supply chains, outsourced business processes, managed service providers, and complex webs of commercial relationships have created organisations that are leaner, more capable, and more agile than they could ever be operating entirely on their own resources.}
+\paragraph{But those same relationships have created something else — a risk landscape that extends far beyond the organisation's own walls, into the operations, the systems, the conduct, and the financial health of hundreds or thousands of external parties whose actions can directly affect the organisation's ability to operate, its regulatory standing, its reputation, and its financial performance.}
+\paragraph{This is the third-party and supply chain risk challenge — and it is one of the most significant, most practically demanding, and most actively developing areas of compliance risk management today.}
+\paragraph{The scale of the challenge is considerable. Regulators across multiple sectors have identified third-party risk management as a priority supervisory concern. Major incidents — the SolarWinds supply chain attack, the collapse of key suppliers during the COVID-19 pandemic, systemic failures in outsourced financial services operations, and human rights abuses uncovered in global supply chains — have demonstrated the consequences of inadequate third-party risk oversight in vivid and costly detail. And the regulatory response — from DORA's detailed third-party ICT requirements, to the CSDDD's value chain due diligence obligations, to the FCA's outsourcing rules — has raised the bar for what constitutes adequate third-party risk management across the compliance landscape.}
+\paragraph{For compliance and legal professionals, third-party risk management is therefore no longer a peripheral concern to be managed through standard procurement processes. It is a core compliance obligation — one that requires systematic risk assessment, structured governance, and ongoing oversight at a level of rigour that many organisations are still developing.}
+\paragraph{This chapter provides the framework.}
+
+%---------------------------- SECTION ----------------------------
+\section{Understanding the Scope — What Is Third-Party Risk?}
+\paragraph{Before examining the risk assessment framework, it is worth being precise about the scope of third-party risk — because it is broader, and in some respects more complex, than it might initially appear.}
+\paragraph{\textbf{Third-party risk} is the risk of harm — financial, operational, regulatory, reputational, or human — arising from the organisation's relationships with external parties. Those external parties may be:}
+\begin{itemize}
+    \bitem{Suppliers of goods and services}{providing raw materials, components, finished products, professional services, technology, utilities, or any other input to the organisation's operations.}
+    \bitem{Outsourced service providers}{performing business processes or functions on the organisation's behalf — customer service, IT management, payroll processing, compliance monitoring, or any other activity that has been contracted out.}
+    \bitem{Technology and cloud providers}{providing the software platforms, cloud infrastructure, data processing services, and technology tools on which the organisation's operations depend.}
+    \bitem{Agents and intermediaries}{acting on the organisation's behalf in dealings with customers, regulators, or other third parties.}
+    \bitem{Joint venture partners and collaborators}{organisations with whom the organisation has a shared commercial or operational interest.}
+    \bitem{Contractors and temporary workers}{individuals who perform work for the organisation without being employees.}
+    \bitem{Professional advisers}{legal, financial, regulatory, and other advisers whose advice and actions can create exposure for the organisation.}
+\end{itemize}
+\paragraph{\textbf{Supply chain risk} is the subset of third-party risk concerned specifically with the chain of suppliers, sub-suppliers, and logistics providers involved in the production and delivery of the goods and services the organisation sources or provides. Supply chain risk has both an upstream dimension — the risks created by the behaviour and performance of the organisation's own suppliers — and a downstream dimension — the risks created by the organisation's relationships with distributors, resellers, and end customers.}
+\paragraph{The depth of the supply chain adds an important dimension of complexity. The organisation's direct (Tier 1) suppliers are typically visible and subject to direct contractual relationships. But the Tier 2 suppliers who supply the Tier 1 suppliers — and the Tier 3 and Tier 4 suppliers beyond them — may be largely invisible to the organisation, despite the fact that their failures, their conduct, or their vulnerabilities can create real and material risk. Modern supply chain risk management therefore requires visibility and assessment capability that extends beyond the immediate supplier relationship.}
+
+%---------------------------- SECTION ----------------------------
+\section{Why Third-Party Risk Has Never Mattered More}
+\paragraph{The growing prominence of third-party risk in the compliance and regulatory agenda reflects a convergence of several developments that have simultaneously increased both the scale of third-party dependence and the severity of the risks it creates.}
+
+\subsection{The Outsourcing Intensification}
+\paragraph{Organisations have been outsourcing functions and processes for decades — but the scope and depth of outsourcing has intensified dramatically with the rise of cloud computing and digital services. Functions that were once performed entirely on the organisation's own premises, by the organisation's own people, on the organisation's own systems, are now routinely performed by third parties operating remotely on shared infrastructure. This creates operational dependencies that are both more significant and more difficult to observe and control than traditional outsourcing arrangements.}
+
+\subsection{The Interconnectedness of Digital Systems}
+\paragraph{The integration of digital systems across organisational boundaries — through APIs, data sharing arrangements, and shared infrastructure — means that a security vulnerability or system failure in one organisation's environment can propagate rapidly into the environments of its partners, customers, and suppliers. The SolarWinds attack, which affected thousands of organisations worldwide through a single compromised software update, is the most prominent illustration of this dynamic — but it is not unique.}
+
+\subsection{The Globalisation of Supply Chains}
+\paragraph{Global supply chains have created efficiency and access to competitive advantage that would not otherwise be available — but they have also created complex, multi-tiered networks of dependencies that are difficult to map, difficult to monitor, and difficult to manage. The COVID-19 pandemic exposed the fragility of just-in-time supply chains with significant geographic concentration — and the supply chain disruptions that followed demonstrated the financial and operational consequences of inadequate supply chain resilience.}
+
+\subsection{The Regulatory and Ethical Dimensions}
+\paragraph{Growing regulatory and societal expectations around human rights, environmental standards, and ethical business conduct in supply chains have added a compliance dimension to third-party risk that goes beyond operational and financial concerns. The Modern Slavery Act, the CSDDD, the conflict minerals regulations, and the developing body of supply chain due diligence legislation all impose specific obligations to assess and manage the conduct of supply chain participants — not just their operational performance.}
+
+\subsection{Regulatory Concentration Risk}
+\paragraph{Regulators — particularly in financial services — have identified a specific systemic risk arising from the concentration of critical functions in a small number of major technology providers. The dependence of large portions of the financial services sector on a handful of major cloud providers, core banking platform vendors, and payment infrastructure operators creates concentration risks that are a direct concern for financial stability regulators. DORA's explicit requirements around ICT concentration risk reflect this concern — and it is likely to feature prominently in regulatory agendas across other sectors as similar dependencies develop.}
+
+%---------------------------- SECTION ----------------------------
+\section{The Categories of Third-Party Risk}
+\paragraph{Third-party risks span the full range of the risk taxonomy established in Chapter~\ref{chap:Types of Risk}. Understanding how third-party relationships create exposure across different risk categories is essential for designing a risk assessment framework that captures the full picture.}
+
+\subsection{Operational Risk}
+\paragraph{The most immediately apparent category of third-party risk is \textbf{operational} — the risk that a third party's failure to perform as expected disrupts the organisation's own operations. This includes:}
+\begin{itemize}
+    \bitem{Service failure}{the third party fails to deliver the contracted service to the required standard — through operational failure, capacity constraints, financial distress, or deliberate withdrawal.}
+    \bitem{Technology failure}{a technology provider's system fails, becomes unavailable, or performs inadequately — affecting the organisation's own system availability and operational capability.}
+    \bitem{Business continuity failure}{the third party is unable to maintain operations following a disruptive event — a natural disaster, a cyber attack, a pandemic, or a geopolitical disruption — creating cascading operational impact for the organisations that depend on it.}
+\end{itemize}
+\paragraph{For regulated organisations, the operational risk dimension of third-party relationships carries a specific regulatory significance — because regulators expect firms to be able to operate their important business services and meet their obligations to customers regardless of whether those services are delivered directly or through third parties. Operational resilience expectations, as introduced in Chapter~\ref{chap:Cybersecurity and Data Protection Risk Assessment}, apply to outsourced delivery as fully as to in-house delivery.}
+
+\subsection{Regulatory and Compliance Risk}
+\paragraph{\textbf{Regulatory risk} is the risk that the third party's conduct or failures create regulatory exposure for the organisation. In regulated sectors, this is particularly significant because the principle of \textbf{regulatory accountability} — the expectation that the regulated entity remains responsible for regulatory compliance even where the underlying activity is performed by a third party — means that the organisation cannot outsource its regulatory obligations.}
+\paragraph{This principle appears explicitly in the FCA's outsourcing rules, the PRA's operational resilience requirements, and DORA — all of which make clear that firms are responsible for ensuring that outsourced activities meet the same regulatory standards as in-house activities, and that regulators will hold the regulated firm to account for failures in outsourced arrangements regardless of contractual allocation of responsibility.}
+\paragraph{Specific regulatory risk dimensions of third-party relationships include:}
+\begin{itemize}
+    \bitem{Data protection}{where the third party processes personal data on the organisation's behalf, the organisation as data controller retains responsibility for ensuring that the processing meets GDPR standards. Article 28 of the GDPR imposes specific requirements for data processing agreements with processors, and the ICO expects controllers to conduct due diligence on processors and to have adequate contractual protections in place.}
+    \bitem{Financial crime}{where the third party performs elements of the customer due diligence or transaction monitoring process, the regulated firm retains responsibility for the adequacy of those processes.}
+    \bitem{Consumer protection}{where the third party has direct customer contact — as an agent, distributor, or service delivery partner — the regulated firm is responsible for ensuring that the customer experience meets the required regulatory standards.}
+\end{itemize}
+
+\subsection{Conduct and Reputational Risk}
+\paragraph{\textbf{Conduct risk} — the risk that the third party's behaviour creates harm to customers, markets, or other stakeholders — is a significant and growing dimension of third-party risk, particularly in financial services and other consumer-facing sectors.}
+\paragraph{An outsourced customer contact centre that handles complaints poorly, an agent that missells products, or a distributor that makes misleading claims about a financial product all create conduct risk for the organisation that appointed them — regardless of the contractual arrangements in place. The FCA has been explicit that firms are responsible for the conduct of those acting on their behalf, and that adequate oversight of appointed representatives and other third parties acting in a customer-facing capacity is a direct regulatory expectation.}
+\paragraph{\textbf{Reputational risk} from third-party relationships can arise from conduct failures, operational failures, or associations with third parties whose values or practices are inconsistent with the organisation's own. High-profile examples — sportswear brands associated with supply chain labour abuses, financial institutions associated with clients engaged in financial crime, technology companies whose data practices have been exposed as inadequate — demonstrate that reputational damage from third-party associations can be severe and lasting.}
+
+\subsection{Financial Risk}
+\paragraph{Financial risk from third-party relationships encompasses:}
+\begin{itemize}
+    \bitem{Counterparty financial failure}{the third party becomes insolvent or financially distressed, disrupting the supply of goods or services and potentially creating direct financial losses through prepaid amounts, advance payments, or the cost of finding alternative suppliers.}
+    \bitem{Contractual liability}{the organisation's contracts with third parties may create unexpected financial liabilities — through indemnities, warranties, minimum volume commitments, or liability clauses that are activated by specific events.}
+    \bitem{Financial crime exposure}{where a third party is involved in or facilitates financial crime, the organisation may face financial losses, regulatory fines, or asset freezing as a consequence of that association.}
+\end{itemize}
+
+\subsection{Information and Cybersecurity Risk}
+\paragraph{As discussed in Chapter~\ref{chap:Cybersecurity and Data Protection Risk Assessment}, third-party and supply chain cyber risk is one of the most significant dimensions of the cybersecurity risk landscape. Third parties with access to the organisation's systems or data are a potential vector for attack — and the organisation's security posture is only as strong as that of its most vulnerable connected third party.}
+
+\subsection{Human Rights and Environmental Risk}
+\paragraph{\textbf{Human rights and environmental risk} in supply chains is the subject of rapidly developing regulatory obligations — including the Modern Slavery Act, the CSDDD, conflict minerals regulations, and a growing body of mandatory human rights due diligence requirements. These obligations require organisations to assess and manage the risks of human rights violations and environmental harm in their supply chains — and to take action to prevent, mitigate, and account for those impacts.}
+
+%---------------------------- SECTION ----------------------------
+\section{The Third-Party Risk Assessment Framework}
+\paragraph{A comprehensive third-party risk assessment framework addresses the full lifecycle of the third-party relationship — from initial due diligence through to ongoing monitoring and exit. It applies the same five-step risk assessment process introduced in Part III, adapted to the specific characteristics of third-party risk.}
+
+\subsection{The Third-Party Inventory — Knowing What You Have}
+\paragraph{Before any risk assessment can be conducted, the organisation needs a complete and current inventory of its third-party relationships. This sounds straightforward but is often surprisingly challenging — particularly for large, complex organisations where third-party relationships may have been established by different business units, in different geographies, at different times, without central visibility or coordination.}
+\paragraph{A complete third-party inventory should capture, for each relationship:}
+\begin{itemize}
+    \item{The identity and nature of the third party.}
+    \item{The nature of the goods or services provided.}
+    \item{The criticality of the relationship to the organisation's operations.}
+    \item{The data or system access granted to the third party.}
+    \item{The regulatory category of the relationship — whether it involves regulated activities, personal data processing, or other specific regulatory dimensions.}
+    \item{The contractual arrangements in place.}
+    \item{The due diligence conducted and when it was last updated.}
+\end{itemize}
+\paragraph{Building and maintaining this inventory is a prerequisite for everything else in the third-party risk framework — and its absence is one of the most commonly identified weaknesses in third-party risk management programmes.}
+
+\subsection{Segmentation and Tiering — Prioritising the Assessment Effort}
+\paragraph{Not all third-party relationships carry the same level of risk — and a proportionate third-party risk framework allocates assessment effort in proportion to the significance of the risk. Third-party tiering — classifying relationships into risk tiers based on their significance — is the mechanism through which this proportionality is achieved.}
+\paragraph{A typical tiering framework might classify third parties into three or four tiers based on factors including:}
+\paragraph{Cri\textbf{t}icality — the degree to which the organisation depends on the third party for the delivery of important products, services, or processes. A third party whose failure would cause significant operational disruption, or whose performance is essential to meeting regulatory obligations, is more critical — and therefore higher risk — than one providing non-essential services.}
+\paragraph{\textbf{Data sensitivity} — the sensitivity of any data shared with or processed by the third party. A third party with access to significant volumes of personal data, or to commercially sensitive or operationally critical information, carries greater information risk than one with no data access.}
+\paragraph{\textbf{Regulatory category} — whether the relationship involves regulated activities, whether the third party is itself regulated, and whether specific regulatory frameworks — DORA, GDPR Article 28, FCA outsourcing rules — apply to the relationship.}
+\paragraph{\textbf{Concentration} — the degree to which the organisation is dependent on a single provider for a particular product, service, or capability. Highly concentrated dependencies carry additional systemic risk even where the individual relationship might otherwise appear moderate in significance.}
+\paragraph{\textbf{Conduct risk} — whether the third party has direct customer contact or acts on the organisation's behalf in ways that create conduct risk.}
+\paragraph{Higher-tier relationships — those that are most critical, most data-sensitive, most regulatory significant, or most concentrated — warrant the most intensive due diligence, the most detailed contractual protections, and the most frequent ongoing monitoring. Lower-tier relationships can be managed with proportionately less intensive approaches — though they should not be ignored entirely.}
+
+\subsection{Due Diligence — Assessing Risk Before Engagement}
+\paragraph{\textbf{Due diligence} is the risk assessment conducted before entering into a third-party relationship — or before renewing or significantly extending an existing one. Its purpose is to identify the risks associated with the proposed relationship and to ensure that they are adequately understood and managed before commitment is made.}
+\paragraph{The depth and scope of due diligence should be proportionate to the tier of the relationship — with Tier 1 relationships receiving the most comprehensive assessment and lower tiers receiving proportionately lighter touch approaches.}
+\paragraph{Comprehensive due diligence for significant third-party relationships typically covers:}
+\paragraph{\textbf{Financial due diligence} — assessing the financial health and stability of the third party. A supplier that is financially distressed is an operational risk — it may be unable to continue delivering services, may cut corners on quality or compliance in order to reduce costs, or may become insolvent with little warning. Financial due diligence involves reviewing financial statements, credit ratings, payment history, and any publicly available indicators of financial stress.}
+\paragraph{\textbf{Operational due diligence} — assessing the third party's operational capability and resilience. This includes reviewing its operational processes, its technology infrastructure, its business continuity arrangements, and its track record of service delivery. For technology providers, operational due diligence should include assessment of system availability, disaster recovery capability, and infrastructure resilience.}
+\paragraph{\textbf{Cybersecurity due diligence} — assessing the third party's information security posture — its security policies and practices, any relevant certifications (ISO 27001, SOC 2), its incident history, and its approach to security in its own supply chain. For third parties with significant data or system access, cybersecurity due diligence is a critical component of the overall assessment.}
+\paragraph{\textbf{Regulatory and compliance due diligence} — assessing whether the third party meets the regulatory and compliance standards applicable to the relationship. This includes reviewing regulatory status, compliance certifications, any regulatory enforcement history, and the adequacy of the third party's own compliance framework.}
+\paragraph{\textbf{Conduct and ethical due diligence} — assessing the third party's approach to ethical business conduct — anti-bribery and corruption policies, modern slavery and human rights policies, environmental policies, and any history of conduct failures. For supply chain relationships, this assessment may need to extend to the third party's own suppliers and sub-contractors.}
+\paragraph{\textbf{Reference and reputation checks} — reviewing publicly available information about the third party's reputation, including media coverage, customer reviews, regulatory announcements, and any litigation history.}
+\paragraph{Due diligence findings should be documented — creating a record of what was assessed, what was found, and what conclusions were reached. Where due diligence identifies material concerns, those concerns should be addressed — either through contractual protections, through requiring remediation by the third party, or through a decision not to proceed with the relationship.}
+
+\subsection{Contractual Protections — Translating Risk Assessment into Legal Protection}
+\paragraph{The contract between the organisation and its third party is a primary mechanism for managing third-party risk — translating the risk assessment into legally enforceable protections. Effective third-party contracts should address:}
+\paragraph{\textbf{Service standards and performance requirements} — clear, measurable specifications of what the third party is required to deliver, including availability, quality, response times, and other relevant performance metrics. Vague or aspirational service descriptions provide little practical protection when performance falls short.}
+\paragraph{\textbf{Security and data protection requirements} — specific requirements around information security standards, data protection compliance, and — where the third party processes personal data on the organisation's behalf — the Article 28 GDPR data processing agreement requirements. These should specify minimum security standards, audit rights, incident notification obligations, and requirements to maintain relevant certifications.}
+\paragraph{\textbf{Business continuity and resilience requirements} — requirements for the third party to maintain adequate business continuity arrangements, to test those arrangements regularly, and to demonstrate resilience to disruption. For critical third parties, these requirements should include specific recovery time objectives and the expectation that the third party will cooperate with the organisation's own resilience testing.}
+\paragraph{\textbf{Audit and oversight rights} — the right to audit the third party's performance, processes, and compliance — and, for regulated organisations, the right for regulators to access the third party's premises and records in connection with the regulated activity. Regulatory audit rights are a specific requirement of the FCA's outsourcing rules and DORA.}
+\paragraph{\textbf{Sub-contracting controls} — requirements around the third party's use of sub-contractors — including notification or approval requirements, and the expectation that sub-contractors meet the same standards as the third party itself. Without adequate sub-contracting controls, the organisation's risk assessment of its direct third-party relationships may not adequately capture the risks introduced by the supply chain beyond the first tier.}
+\paragraph{\textbf{Termination and exit provisions} — clear provisions for terminating the relationship — including for cause, for regulatory reasons, and for convenience — and requirements for the third party to cooperate with an orderly exit, including data return, knowledge transfer, and transition support. Exit provisions are particularly important for critical third-party relationships where the cost and disruption of a sudden, uncooperative exit could be severe.}
+\paragraph{\textbf{Liability and indemnity provisions} — clear allocation of liability for failures in the third party's performance — including indemnities for regulatory fines, customer claims, and other losses arising from the third party's conduct. Liability provisions need to be carefully calibrated — too limited and they provide inadequate protection; too broad and they may be unenforceable or may make the relationship commercially unviable.}
+
+\subsection{Ongoing Monitoring — Maintaining Visibility}
+\paragraph{Due diligence conducted at the point of onboarding provides a snapshot of the third party's risk profile at that moment. Ongoing monitoring is the mechanism by which the organisation maintains current visibility of how that risk profile evolves over time.}
+\paragraph{Effective ongoing monitoring for significant third-party relationships includes:}
+\paragraph{\textbf{Performance monitoring} — tracking the third party's performance against contracted service standards on a regular basis. This typically involves reviewing management information provided by the third party against agreed KPIs — availability statistics, error rates, response times, complaint volumes — and escalating where performance falls below agreed thresholds.}
+\paragraph{\textbf{Financial health monitoring} — maintaining awareness of the third party's financial condition on an ongoing basis. This might include periodic review of updated financial statements, monitoring of credit rating changes, and attention to any publicly available indicators of financial stress. For critical suppliers, financial distress early warning is particularly important — the earlier a potential failure is identified, the more time the organisation has to put contingency arrangements in place.}
+\paragraph{\textbf{Cybersecurity monitoring} — maintaining awareness of the third party's cybersecurity posture on an ongoing basis — not just at the point of initial due diligence. Commercial services exist that monitor the external-facing security posture of third parties — identifying publicly visible vulnerabilities, tracking exposure to known threat indicators, and providing alerts when a third party's security posture deteriorates.}
+\paragraph{\textbf{Regulatory and compliance monitoring} — staying aware of any regulatory developments affecting the third party — enforcement actions, regulatory investigations, licence conditions, or changes in regulatory status. Regulatory problems affecting a key third party are a direct risk indicator for the organisation that depends on it.}
+\paragraph{\textbf{Conduct and reputational monitoring} — maintaining awareness of any conduct or reputational issues affecting the third party — adverse media coverage, customer complaints, whistleblowing disclosures, or supply chain investigation findings.}
+\paragraph{\textbf{Periodic reassessment} — conducting a full due diligence reassessment of significant third-party relationships at defined intervals — typically annually for critical relationships and less frequently for lower-tier ones. Reassessment should also be triggered by specific events — a significant incident, a change in the third party's ownership or management, a material change in the scope of the relationship, or a significant change in the regulatory environment.}
+
+\subsection{Exit Planning — Preparing for the End of the Relationship}
+\paragraph{One of the most commonly neglected aspects of third-party risk management is exit planning — maintaining the capability to exit a third-party relationship in an orderly manner, within a timeframe that does not create unacceptable operational or regulatory risk.}
+\paragraph{Exit planning matters because third-party relationships end — sometimes planned, sometimes not. Contracts expire, commercial relationships deteriorate, third parties fail financially, regulatory requirements change, or better alternatives become available. Where an organisation has not adequately planned for exit — where it lacks the knowledge, the data, the systems, or the alternative supplier relationships needed to transition smoothly to a different arrangement — exit can be disruptive, expensive, and slow.}
+\paragraph{For regulated organisations, the FCA and PRA have been explicit that firms are expected to have credible exit plans for material outsourced arrangements — and that the absence of a workable exit plan is itself a risk management weakness. DORA similarly requires financial entities to maintain exit strategies for critical third-party ICT providers.}
+\paragraph{Effective exit planning involves:}
+\begin{itemize}
+    \item{Maintaining documentation of processes, knowledge, and system configurations that would need to be transferred or recreated on exit.}
+    \item{Maintaining access to data and systems in a format that enables migration to an alternative provider}
+    \item{Identifying and pre-qualifying alternative providers for critical services.}
+    \item{Testing the exit plan periodically — either through tabletop exercises or through actual transitions — to ensure it remains workable.}
+\end{itemize}
+
+%---------------------------- SECTION ----------------------------
+\section{Specific Third-Party Risk Contexts}
+
+\subsection{Outsourcing in Regulated Financial Services}
+\paragraph{For firms regulated by the FCA and PRA, outsourcing arrangements involving regulated activities or important business services are subject to specific regulatory requirements that go significantly beyond general third-party risk management expectations.}
+\paragraph{The \textbf{FCA's SS2/21} and the \textbf{PRA's Supervisory Statement SS2/21} on outsourcing and third-party risk management set out detailed expectations for how firms should manage outsourced arrangements — covering due diligence, contractual requirements, ongoing oversight, concentration risk management, and exit planning. The requirements apply most intensively to \textbf{material outsourcing} arrangements — those involving regulated activities, or those where disruption could cause significant harm to customers or the financial system.}
+\paragraph{DORA — applicable from January 2025 across EU financial services — goes further still, introducing:.}
+\begin{itemize}
+    \item{A requirement to maintain a register of all ICT third-party arrangements.}
+    \item{Specific contractual requirements for ICT service contracts.}
+    \item{Requirements for firms to assess and manage ICT concentration risk.}
+    \item{An oversight framework for \textbf{critical third-party providers} — major cloud and technology providers whose failure could create systemic risk — with the ability for regulators to directly oversee and, if necessary, require changes to the services of those providers.}
+\end{itemize}
+
+\subsection{Modern Slavery and Human Rights Due Diligence}
+\paragraph{The \textbf{Modern Slavery Act 2015} requires commercial organisations with an annual turnover of £36 million or more operating in the UK to produce an annual transparency statement describing the steps they have taken to ensure that slavery and human trafficking are not present in their business or supply chains.}
+\paragraph{Whilst the transparency statement obligation is relatively light-touch — requiring disclosure rather than action — the expectation of genuine, substantive supply chain due diligence has intensified significantly as investor, customer, and regulatory scrutiny has grown. The CSDDD — applicable to large companies operating in the EU — goes considerably further, requiring active human rights due diligence across the value chain, including identification of adverse impacts, action to prevent or mitigate them, and reporting on outcomes.}
+\paragraph{For compliance professionals, the human rights and modern slavery dimension of supply chain risk assessment requires:}
+\begin{itemize}
+    \item{Identifying which parts of the supply chain carry the highest risk of human rights violations — based on geography, sector, commodity type, and supply chain tier}
+    \item{Conducting proportionate due diligence on high-risk supply chain relationships — through supplier questionnaires, audits, and third-party assessments.}
+    \item{Engaging with suppliers to understand and improve their own human rights practices.}
+    \item{Maintaining documentation that demonstrates a genuine, ongoing effort to identify and address human rights risks.}
+\end{itemize}
+
+\subsection{Concentration Risk — Managing Critical Dependencies}
+\paragraph{Concentration risk — the risk of over-dependence on a single third party or a small number of third parties for a critical product, service, or capability — is a dimension of third-party risk that warrants specific attention and specific governance.}
+\paragraph{Concentration risk assessment involves:}
+\begin{itemize}
+    \item{Identifying where the organisation has single-source dependencies — where a critical function or service is provided by only one third party with no readily available alternative.}
+    \item{Evaluating the resilience of those concentrated dependencies — assessing the financial health, operational robustness, and regulatory stability of the concentrated provider.}
+    \item{Assessing the organisation's ability to exit or substitute the concentrated relationship in an acceptable timeframe.}
+    \item{Considering whether the concentration is justified — whether the benefits of the concentrated arrangement outweigh the concentration risk — and whether diversification is practicable and proportionate.}
+\end{itemize}
+\paragraph{For financial services firms, DORA's concentration risk requirements make this assessment a formal regulatory obligation. For other organisations, managing concentration risk is a governance good practice — and one that the COVID-19 pandemic's supply chain disruptions demonstrated can have very material financial consequences.}
+
+%---------------------------- SECTION ----------------------------
+\section{Governance of Third-Party Risk}
+\paragraph{Third-party risk management is most effective when it is governed as a programme — with clear ownership, defined processes, adequate resources, and board-level visibility — rather than as a collection of individual relationship management activities managed by different teams without coordination.}
+\paragraph{Key governance elements include:}
+\paragraph{\textbf{A central third-party risk function — or at minimum a clearly designated second-line responsibility for third-party risk oversight, even if operational management of individual relationships is distributed across business units.}}
+\paragraph{\textbf{A third-party risk policy} — setting out the organisation's approach to third-party risk management, including tiering methodology, due diligence standards, contractual requirements, monitoring expectations, and escalation processes.}
+\paragraph{\textbf{A complete and maintained third-party inventory} — as described above, the foundation of everything else}
+\paragraph{\textbf{Board and senior management visibility} — regular reporting on the third-party risk landscape to senior management and the board — covering the overall profile of significant relationships, any material risk developments, and the status of any remediation activities.}
+\paragraph{\textbf{Clear ownership at the relationship level} — every significant third-party relationship should have a named internal owner — typically a commercial relationship manager — who is responsible for day-to-day oversight and for escalating concerns through the governance framework.}
+\paragraph{\textbf{Integration with the enterprise risk framework} — third-party risks should be captured in the organisation's risk register, assessed within the overall risk evaluation framework, and reported alongside other material risks. The siloing of third-party risk management in procurement or commercial functions, disconnected from the enterprise risk framework, is a governance weakness that regulators are increasingly likely to challenge.}
+
+%---------------------------- SECTION ----------------------------
+\newpage
+\section{Chapter Summary}
+In this chapter we learned about the following key points:
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\textwidth}{ | >{\raggedright\arraybackslash}p{0.3\textwidth} 
+								| >{\raggedright\arraybackslash}p{0.35\textwidth} 
+                                | >{\raggedright\arraybackslash}X | }
+    \hline
+    \textbf{Risk Category} & \textbf{Third-Party Dimension} & \textbf{Key Assessment Focus} \\
+    \hline
+    \textbf{Operational} & Service failure; technology failure; business continuity & Criticality; resilience; business continuity capability\\
+    \hline
+    \textbf{Regulatory and compliance} & Accountability retained; outsourced regulatory activity & Regulatory status; compliance framework; audit rights\\
+    \hline
+    \textbf{Conduct and reputational} & Agent conduct; customer-facing third parties; supply chain ethics & Conduct history; oversight arrangements; values alignment\\
+    \hline
+    \textbf{Financial} & Counterparty failure; contractual liability & Financial health; contract terms; concentration\\
+    \hline
+    \textbf{Cybersecurity} & System access; data access; supply chain attack & Security posture; certifications; incident history\\
+    \hline
+    \textbf{Human rights and environmental} & Supply chain labour; environmental impact & Due diligence depth; geographic and sector risk\\
+    \hline
+  \end{tabularx}
+  \caption{Third Party Risk Categories}
+\end{table}
+
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\textwidth}{ | >{\raggedright\arraybackslash}p{0.25\textwidth} 
+                                | >{\raggedright\arraybackslash}X | }
+    \hline
+    \textbf{Stage} & \textbf{Key Activities}\\
+    \hline
+    \textbf{Inventory} & Identify and document all third-party relationships\\
+    \hline
+    \textbf{Tiering} & Classify relationships by risk significance\\
+    \hline
+    \textbf{Due diligence} & Assess risks before engagement — financial, operational, cyber, conduct\\
+    \hline
+    \textbf{Contracting} & Translate risk assessment into contractual protections\\
+    \hline
+    \textbf{Ongoing monitoring} & Maintain current visibility of performance and risk profile\\
+    \hline
+    \textbf{Periodic reassessment} & Formal review at defined intervals and in response to triggers\\
+    \hline
+    \textbf{Exit planning} & Maintain capability to exit in an orderly and timely manner\\
+    \hline
+  \end{tabularx}
+  \caption{Third Party Risk Management Lifecycle}
+\end{table}
+
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\textwidth}{ | >{\raggedright\arraybackslash}p{0.3\textwidth} 
+								| >{\raggedright\arraybackslash}p{0.2\textwidth} 
+                                | >{\raggedright\arraybackslash}X | }
+    \hline
+    \textbf{Requirement} & \textbf{Source} & \textbf{Key Obligation} \\
+    \hline
+    \textbf{Material outsourcing rules} & FCA SS2/21; PRA SS2/21 & Due diligence; contract requirements; oversight; exit planning\\
+    \hline
+    \textbf{ICT third-party management} & DORA & Register; contracts; concentration risk; critical provider oversight\\
+    \hline
+    \textbf{Data processor requirements} & GDPR Article 28 & Data processing agreements; due diligence; audit rights\\
+    \hline
+    \textbf{Modern slavery reporting} & Modern Slavery Act 2015 & Annual transparency statement; supply chain due diligence\\
+    \hline
+    \textbf{Value chain due diligence} & CSDDD & Active human rights and environmental due diligence across value chain\\
+    \hline
+  \end{tabularx}
+  \caption{Third Party Risk Key Regulatory Requirements And Obligations}
+\end{table}
+
+\paragraph{Key takeaways:}
+\begin{itemize}
+  \item{Third-party risk extends across the full risk taxonomy — operational, regulatory, conduct, financial, cyber, and human rights risks all have significant third-party dimensions.}
+  \item{Regulatory accountability is retained by the regulated entity regardless of outsourcing — the organisation cannot outsource its compliance obligations, only the underlying activity.}
+  \item{A complete and current third-party inventory is the non-negotiable foundation of effective third-party risk management — without it, nothing else works.}
+  \item{Tiering is essential — assessment effort must be proportionate to risk significance, with the most intensive attention focused on the most critical and most risky relationships.}
+  \item{Ongoing monitoring is as important as initial due diligence — a third party's risk profile evolves, and point-in-time assessment is insufficient for managing relationships over time.}
+  \item{Exit planning is consistently underinvested and consistently identified as a weakness — it deserves dedicated attention and periodic testing.}
+  \item{The regulatory direction of travel — DORA, CSDDD, expanding FCA and PRA expectations — is consistently towards more rigorous, more documented, and more actively governed third-party risk management.}
+  \item{Third-party risk governance needs to be enterprise-wide — not siloed in procurement or commercial functions — with board visibility and integration into the main risk framework.}
+\end{itemize}
+
+\barquote{In Chapter~\ref{chap:Reputational Risk Assessment}, we move to one of the most consequential and most underanalysed categories of risk — reputational risk. We explore what reputational risk is, why it defies conventional risk assessment approaches, and how compliance professionals can build a framework for identifying, assessing, and managing reputational exposure in a world where trust is simultaneously more valuable and more fragile than ever before.}
