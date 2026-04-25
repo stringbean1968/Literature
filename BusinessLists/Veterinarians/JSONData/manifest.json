@@ -1,0 +1,191 @@
+{
+  "$schema": "./schema.json",
+  "generated": "2026-04-25",
+  "totalRecords": 2300,
+  "totalFiles": 26,
+  "description": "UK Veterinary Practices dataset — split by first letter of practice name.",
+  "files": [
+    {
+      "file": "practices/A/Vets_A.json",
+      "letter": "A",
+      "chunk": 1,
+      "recordCount": 111,
+      "sizeBytes": 173740
+    },
+    {
+      "file": "practices/B/Vets_B.json",
+      "letter": "B",
+      "chunk": 1,
+      "recordCount": 168,
+      "sizeBytes": 265737
+    },
+    {
+      "file": "practices/C/Vets_C.json",
+      "letter": "C",
+      "chunk": 1,
+      "recordCount": 179,
+      "sizeBytes": 283717
+    },
+    {
+      "file": "practices/D/Vets_D.json",
+      "letter": "D",
+      "chunk": 1,
+      "recordCount": 165,
+      "sizeBytes": 259792
+    },
+    {
+      "file": "practices/E/Vets_E.json",
+      "letter": "E",
+      "chunk": 1,
+      "recordCount": 64,
+      "sizeBytes": 100194
+    },
+    {
+      "file": "practices/F/Vets_F.json",
+      "letter": "F",
+      "chunk": 1,
+      "recordCount": 77,
+      "sizeBytes": 121428
+    },
+    {
+      "file": "practices/G/Vets_G.json",
+      "letter": "G",
+      "chunk": 1,
+      "recordCount": 91,
+      "sizeBytes": 142959
+    },
+    {
+      "file": "practices/H/Vets_H.json",
+      "letter": "H",
+      "chunk": 1,
+      "recordCount": 115,
+      "sizeBytes": 179713
+    },
+    {
+      "file": "practices/I/Vets_I.json",
+      "letter": "I",
+      "chunk": 1,
+      "recordCount": 30,
+      "sizeBytes": 46724
+    },
+    {
+      "file": "practices/J/Vets_J.json",
+      "letter": "J",
+      "chunk": 1,
+      "recordCount": 99,
+      "sizeBytes": 152854
+    },
+    {
+      "file": "practices/K/Vets_K.json",
+      "letter": "K",
+      "chunk": 1,
+      "recordCount": 44,
+      "sizeBytes": 69035
+    },
+    {
+      "file": "practices/L/Vets_L.json",
+      "letter": "L",
+      "chunk": 1,
+      "recordCount": 94,
+      "sizeBytes": 146547
+    },
+    {
+      "file": "practices/M/Vets_M.json",
+      "letter": "M",
+      "chunk": 1,
+      "recordCount": 153,
+      "sizeBytes": 243428
+    },
+    {
+      "file": "practices/N/Vets_N.json",
+      "letter": "N",
+      "chunk": 1,
+      "recordCount": 60,
+      "sizeBytes": 93924
+    },
+    {
+      "file": "practices/O/Vets_O.json",
+      "letter": "O",
+      "chunk": 1,
+      "recordCount": 30,
+      "sizeBytes": 47077
+    },
+    {
+      "file": "practices/P/Vets_P.json",
+      "letter": "P",
+      "chunk": 1,
+      "recordCount": 118,
+      "sizeBytes": 184207
+    },
+    {
+      "file": "practices/Q/Vets_Q.json",
+      "letter": "Q",
+      "chunk": 1,
+      "recordCount": 20,
+      "sizeBytes": 31518
+    },
+    {
+      "file": "practices/R/Vets_R.json",
+      "letter": "R",
+      "chunk": 1,
+      "recordCount": 88,
+      "sizeBytes": 137581
+    },
+    {
+      "file": "practices/S/Vets_S.json",
+      "letter": "S",
+      "chunk": 1,
+      "recordCount": 253,
+      "sizeBytes": 400387
+    },
+    {
+      "file": "practices/T/Vets_T.json",
+      "letter": "T",
+      "chunk": 1,
+      "recordCount": 88,
+      "sizeBytes": 139877
+    },
+    {
+      "file": "practices/U/Vets_U.json",
+      "letter": "U",
+      "chunk": 1,
+      "recordCount": 20,
+      "sizeBytes": 30832
+    },
+    {
+      "file": "practices/V/Vets_V.json",
+      "letter": "V",
+      "chunk": 1,
+      "recordCount": 50,
+      "sizeBytes": 77074
+    },
+    {
+      "file": "practices/W/Vets_W.json",
+      "letter": "W",
+      "chunk": 1,
+      "recordCount": 126,
+      "sizeBytes": 199240
+    },
+    {
+      "file": "practices/X/Vets_X.json",
+      "letter": "X",
+      "chunk": 1,
+      "recordCount": 15,
+      "sizeBytes": 24220
+    },
+    {
+      "file": "practices/Y/Vets_Y.json",
+      "letter": "Y",
+      "chunk": 1,
+      "recordCount": 22,
+      "sizeBytes": 36252
+    },
+    {
+      "file": "practices/Z/Vets_Z.json",
+      "letter": "Z",
+      "chunk": 1,
+      "recordCount": 20,
+      "sizeBytes": 30482
+    }
+  ]
+}

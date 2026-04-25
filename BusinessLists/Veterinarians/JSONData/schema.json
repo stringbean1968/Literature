@@ -1,0 +1,230 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/stringbean1968/Literature/blob/main/BusinessLists/Veterinarians/JSONData/schema.json",
+  "title": "UK Veterinary Practice",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "practiceName",
+      "town",
+      "postcode",
+      "country",
+      "lastVerified"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Globally unique slug identifier"
+      },
+      "practiceName": {
+        "type": "string"
+      },
+      "tradingName": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "parentGroup": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "practiceType": {
+        "type": "string",
+        "enum": [
+          "Small Animal",
+          "Equine",
+          "Farm Animal",
+          "Mixed Practice",
+          "Exotic Animal",
+          "Referral Hospital",
+          "Emergency",
+          "Mobile Vet",
+          "Small Animal & Exotic",
+          "Companion Animal"
+        ]
+      },
+      "species": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "services": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "rcvsPracticeNumber": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "rcvsAccreditation": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "addressLine1": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "addressLine2": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "town": {
+        "type": "string"
+      },
+      "county": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "postcode": {
+        "type": "string",
+        "pattern": "^[A-Z]{1,2}[0-9][0-9A-Z]? ?[0-9][A-Z]{2}$"
+      },
+      "country": {
+        "type": "string",
+        "enum": [
+          "England",
+          "Scotland",
+          "Wales",
+          "Northern Ireland"
+        ]
+      },
+      "region": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "latitude": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "longitude": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "phone": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "alternatePhone": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "emergencyPhone": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "email": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "website": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "openingHours": {
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "outOfHoursProvider": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "socialMedia": {
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "companiesHouseNumber": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "vatNumber": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "principalVet": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "clinicalDirector": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "numberOfVets": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "dateEstablished": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "notes": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "lastVerified": {
+        "type": "string",
+        "format": "date"
+      }
+    },
+    "additionalProperties": false
+  }
+}
