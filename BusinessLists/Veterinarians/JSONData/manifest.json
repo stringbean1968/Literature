@@ -1,191 +1,136 @@
 {
-  "$schema": "./schema.json",
-  "generated": "2026-04-25",
+  "generatedAt": "2026-04-25T07:49:00Z",
   "totalRecords": 2300,
-  "totalFiles": 26,
-  "description": "UK Veterinary Practices dataset — split by first letter of practice name.",
   "files": [
     {
-      "file": "practices/A/Vets_A.json",
-      "letter": "A",
-      "chunk": 1,
-      "recordCount": 111,
-      "sizeBytes": 173740
+      "path": "practices/A/Vets_A.json",
+      "bucket": "A",
+      "records": 111
     },
     {
-      "file": "practices/B/Vets_B.json",
-      "letter": "B",
-      "chunk": 1,
-      "recordCount": 168,
-      "sizeBytes": 265737
+      "path": "practices/B/Vets_B.json",
+      "bucket": "B",
+      "records": 168
     },
     {
-      "file": "practices/C/Vets_C.json",
-      "letter": "C",
-      "chunk": 1,
-      "recordCount": 179,
-      "sizeBytes": 283717
+      "path": "practices/C/Vets_C.json",
+      "bucket": "C",
+      "records": 179
     },
     {
-      "file": "practices/D/Vets_D.json",
-      "letter": "D",
-      "chunk": 1,
-      "recordCount": 165,
-      "sizeBytes": 259792
+      "path": "practices/D/Vets_D.json",
+      "bucket": "D",
+      "records": 165
     },
     {
-      "file": "practices/E/Vets_E.json",
-      "letter": "E",
-      "chunk": 1,
-      "recordCount": 64,
-      "sizeBytes": 100194
+      "path": "practices/E/Vets_E.json",
+      "bucket": "E",
+      "records": 64
     },
     {
-      "file": "practices/F/Vets_F.json",
-      "letter": "F",
-      "chunk": 1,
-      "recordCount": 77,
-      "sizeBytes": 121428
+      "path": "practices/F/Vets_F.json",
+      "bucket": "F",
+      "records": 77
     },
     {
-      "file": "practices/G/Vets_G.json",
-      "letter": "G",
-      "chunk": 1,
-      "recordCount": 91,
-      "sizeBytes": 142959
+      "path": "practices/G/Vets_G.json",
+      "bucket": "G",
+      "records": 91
     },
     {
-      "file": "practices/H/Vets_H.json",
-      "letter": "H",
-      "chunk": 1,
-      "recordCount": 115,
-      "sizeBytes": 179713
+      "path": "practices/H/Vets_H.json",
+      "bucket": "H",
+      "records": 115
     },
     {
-      "file": "practices/I/Vets_I.json",
-      "letter": "I",
-      "chunk": 1,
-      "recordCount": 30,
-      "sizeBytes": 46724
+      "path": "practices/I/Vets_I.json",
+      "bucket": "I",
+      "records": 30
     },
     {
-      "file": "practices/J/Vets_J.json",
-      "letter": "J",
-      "chunk": 1,
-      "recordCount": 99,
-      "sizeBytes": 152854
+      "path": "practices/J/Vets_J.json",
+      "bucket": "J",
+      "records": 99
     },
     {
-      "file": "practices/K/Vets_K.json",
-      "letter": "K",
-      "chunk": 1,
-      "recordCount": 44,
-      "sizeBytes": 69035
+      "path": "practices/K/Vets_K.json",
+      "bucket": "K",
+      "records": 44
     },
     {
-      "file": "practices/L/Vets_L.json",
-      "letter": "L",
-      "chunk": 1,
-      "recordCount": 94,
-      "sizeBytes": 146547
+      "path": "practices/L/Vets_L.json",
+      "bucket": "L",
+      "records": 94
     },
     {
-      "file": "practices/M/Vets_M.json",
-      "letter": "M",
-      "chunk": 1,
-      "recordCount": 153,
-      "sizeBytes": 243428
+      "path": "practices/M/Vets_M.json",
+      "bucket": "M",
+      "records": 153
     },
     {
-      "file": "practices/N/Vets_N.json",
-      "letter": "N",
-      "chunk": 1,
-      "recordCount": 60,
-      "sizeBytes": 93924
+      "path": "practices/N/Vets_N.json",
+      "bucket": "N",
+      "records": 60
     },
     {
-      "file": "practices/O/Vets_O.json",
-      "letter": "O",
-      "chunk": 1,
-      "recordCount": 30,
-      "sizeBytes": 47077
+      "path": "practices/O/Vets_O.json",
+      "bucket": "O",
+      "records": 30
     },
     {
-      "file": "practices/P/Vets_P.json",
-      "letter": "P",
-      "chunk": 1,
-      "recordCount": 118,
-      "sizeBytes": 184207
+      "path": "practices/P/Vets_P.json",
+      "bucket": "P",
+      "records": 118
     },
     {
-      "file": "practices/Q/Vets_Q.json",
-      "letter": "Q",
-      "chunk": 1,
-      "recordCount": 20,
-      "sizeBytes": 31518
+      "path": "practices/Q/Vets_Q.json",
+      "bucket": "Q",
+      "records": 20
     },
     {
-      "file": "practices/R/Vets_R.json",
-      "letter": "R",
-      "chunk": 1,
-      "recordCount": 88,
-      "sizeBytes": 137581
+      "path": "practices/R/Vets_R.json",
+      "bucket": "R",
+      "records": 88
     },
     {
-      "file": "practices/S/Vets_S.json",
-      "letter": "S",
-      "chunk": 1,
-      "recordCount": 253,
-      "sizeBytes": 400387
+      "path": "practices/S/Vets_S.json",
+      "bucket": "S",
+      "records": 253
     },
     {
-      "file": "practices/T/Vets_T.json",
-      "letter": "T",
-      "chunk": 1,
-      "recordCount": 88,
-      "sizeBytes": 139877
+      "path": "practices/T/Vets_T.json",
+      "bucket": "T",
+      "records": 88
     },
     {
-      "file": "practices/U/Vets_U.json",
-      "letter": "U",
-      "chunk": 1,
-      "recordCount": 20,
-      "sizeBytes": 30832
+      "path": "practices/U/Vets_U.json",
+      "bucket": "U",
+      "records": 20
     },
     {
-      "file": "practices/V/Vets_V.json",
-      "letter": "V",
-      "chunk": 1,
-      "recordCount": 50,
-      "sizeBytes": 77074
+      "path": "practices/V/Vets_V.json",
+      "bucket": "V",
+      "records": 50
     },
     {
-      "file": "practices/W/Vets_W.json",
-      "letter": "W",
-      "chunk": 1,
-      "recordCount": 126,
-      "sizeBytes": 199240
+      "path": "practices/W/Vets_W.json",
+      "bucket": "W",
+      "records": 126
     },
     {
-      "file": "practices/X/Vets_X.json",
-      "letter": "X",
-      "chunk": 1,
-      "recordCount": 15,
-      "sizeBytes": 24220
+      "path": "practices/X/Vets_X.json",
+      "bucket": "X",
+      "records": 15
     },
     {
-      "file": "practices/Y/Vets_Y.json",
-      "letter": "Y",
-      "chunk": 1,
-      "recordCount": 22,
-      "sizeBytes": 36252
+      "path": "practices/Y/Vets_Y.json",
+      "bucket": "Y",
+      "records": 22
     },
     {
-      "file": "practices/Z/Vets_Z.json",
-      "letter": "Z",
-      "chunk": 1,
-      "recordCount": 20,
-      "sizeBytes": 30482
+      "path": "practices/Z/Vets_Z.json",
+      "bucket": "Z",
+      "records": 20
     }
   ]
 }

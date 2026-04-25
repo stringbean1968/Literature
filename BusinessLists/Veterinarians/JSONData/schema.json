@@ -8,10 +8,8 @@
     "required": [
       "id",
       "practiceName",
-      "town",
-      "postcode",
       "country",
-      "lastVerified"
+      "sources"
     ],
     "properties": {
       "id": {
