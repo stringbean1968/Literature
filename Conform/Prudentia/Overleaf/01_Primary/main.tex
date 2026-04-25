@@ -8,6 +8,8 @@
 
 % paragraph management, space after each with no first line indent
 \usepackage{parskip}
+\usepackage{makecell}
+\usepackage{longtable}
 
 % provides formatting for coloured bars etc
 \usepackage{tcolorbox}
@@ -15,11 +17,12 @@
 \usepackage{enumitem}
 \usepackage{xparse}
 \usepackage{changepage}
-
+\usepackage{pdflscape}
 \usepackage{tabularx}
 \usepackage{booktabs}        % For nicer horizontal rules
 \usepackage{float}
-
+\usepackage{tikz}
+\usepackage{caption}
 \tcbuselibrary{skins}
 
 % paragraph management, space after each with no first line indent
@@ -73,8 +76,7 @@
 \date{}
 \maketitle
 \include{Introduction/Introduction}
-%\tableofcontents
-\paragraph{TOC Goes Here}
+\tableofcontents
 \newpage
 \include{Part1/Part1}
 \include{Part1/Chapter1}
@@ -114,10 +116,19 @@
 \include{Part8/Part8}
 \include{Part8/Chapter29}
 \include{Part8/Chapter30}
-%\include{X_Appendices/Appendices}
-%\include{X_Appendices/AppendixA}
-%\include{X_Appendices/AppendixB}
-%\include{X_Appendices/AppendixC}
-%\include{X_Appendices/AppendixD}
-%\include{X_Appendices/AppendixE}
+\include{X_Appendices/Appendices}
+\include{X_Appendices/AppendixA}
+\include{X_Appendices/AppendixB}
+\include{X_Appendices/AppendixC}
+\include{X_Appendices/AppendixD}
+\include{X_Appendices/AppendixE}
+\include{X_Appendices/AppendixF}
+\include{X_Appendices/AppendixG}
+\include{X_Appendices/AppendixH}
+ \include{X_Appendices/AppendixI}
+\include{X_Appendices/AppendixJ}
+\include{X_Appendices/AppendixK}
+\include{X_Appendices/AppendixL}
+\include{X_Appendices/AppendixM}
+\include{X_Appendices/AppendixN}
 \end{document}
