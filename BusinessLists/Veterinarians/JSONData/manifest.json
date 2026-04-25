@@ -1,0 +1,136 @@
+{
+  "generatedAt": "2026-04-25T07:49:00Z",
+  "totalRecords": 2300,
+  "files": [
+    {
+      "path": "practices/A/Vets_A.json",
+      "bucket": "A",
+      "records": 111
+    },
+    {
+      "path": "practices/B/Vets_B.json",
+      "bucket": "B",
+      "records": 168
+    },
+    {
+      "path": "practices/C/Vets_C.json",
+      "bucket": "C",
+      "records": 179
+    },
+    {
+      "path": "practices/D/Vets_D.json",
+      "bucket": "D",
+      "records": 165
+    },
+    {
+      "path": "practices/E/Vets_E.json",
+      "bucket": "E",
+      "records": 64
+    },
+    {
+      "path": "practices/F/Vets_F.json",
+      "bucket": "F",
+      "records": 77
+    },
+    {
+      "path": "practices/G/Vets_G.json",
+      "bucket": "G",
+      "records": 91
+    },
+    {
+      "path": "practices/H/Vets_H.json",
+      "bucket": "H",
+      "records": 115
+    },
+    {
+      "path": "practices/I/Vets_I.json",
+      "bucket": "I",
+      "records": 30
+    },
+    {
+      "path": "practices/J/Vets_J.json",
+      "bucket": "J",
+      "records": 99
+    },
+    {
+      "path": "practices/K/Vets_K.json",
+      "bucket": "K",
+      "records": 44
+    },
+    {
+      "path": "practices/L/Vets_L.json",
+      "bucket": "L",
+      "records": 94
+    },
+    {
+      "path": "practices/M/Vets_M.json",
+      "bucket": "M",
+      "records": 153
+    },
+    {
+      "path": "practices/N/Vets_N.json",
+      "bucket": "N",
+      "records": 60
+    },
+    {
+      "path": "practices/O/Vets_O.json",
+      "bucket": "O",
+      "records": 30
+    },
+    {
+      "path": "practices/P/Vets_P.json",
+      "bucket": "P",
+      "records": 118
+    },
+    {
+      "path": "practices/Q/Vets_Q.json",
+      "bucket": "Q",
+      "records": 20
+    },
+    {
+      "path": "practices/R/Vets_R.json",
+      "bucket": "R",
+      "records": 88
+    },
+    {
+      "path": "practices/S/Vets_S.json",
+      "bucket": "S",
+      "records": 253
+    },
+    {
+      "path": "practices/T/Vets_T.json",
+      "bucket": "T",
+      "records": 88
+    },
+    {
+      "path": "practices/U/Vets_U.json",
+      "bucket": "U",
+      "records": 20
+    },
+    {
+      "path": "practices/V/Vets_V.json",
+      "bucket": "V",
+      "records": 50
+    },
+    {
+      "path": "practices/W/Vets_W.json",
+      "bucket": "W",
+      "records": 126
+    },
+    {
+      "path": "practices/X/Vets_X.json",
+      "bucket": "X",
+      "records": 15
+    },
+    {
+      "path": "practices/Y/Vets_Y.json",
+      "bucket": "Y",
+      "records": 22
+    },
+    {
+      "path": "practices/Z/Vets_Z.json",
+      "bucket": "Z",
+      "records": 20
+    }
+  ]
+}
