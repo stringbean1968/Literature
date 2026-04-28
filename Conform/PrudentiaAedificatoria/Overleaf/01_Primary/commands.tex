@@ -1,0 +1,26 @@
+% italic quotatioon with left hand vertical grey bar
+\newcommand{\barquote}[1]{
+  \paragraph{}
+  \begin{quotebar}
+    \itshape #1
+  \end{quotebar}
+}
+
+% Bold worded bullet lists
+\newcommand{\bitem}[2]{\item \textbf{#1} -- #2}
+
+\NewDocumentCommand{\example}{ O{0.25cm} O{0.25cm} O{0.25cm} O{0.75cm} m m }{%
+  % #1 = top spacing    (default 1cm)
+  % #2 = right spacing  (default 1cm)
+  % #3 = bottom spacing (default 1cm)
+  % #4 = left spacing   (default 1cm)
+  % #5 = Title
+  % #6 = Content
+  \par\vspace{#1}
+  \begin{adjustwidth}{#4}{#2}
+    \itshape
+    \textbf{#5}\par
+    #6\par
+  \end{adjustwidth}
+  \vspace{#3}
+}

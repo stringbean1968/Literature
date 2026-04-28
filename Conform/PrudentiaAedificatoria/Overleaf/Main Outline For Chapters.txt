@@ -1,0 +1,82 @@
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- SECTION ----------------------------
+\section{XXXX}
+
+%---------------------------- TEMP ----------------------------
+\begin{huge}
+{Remove This}
+
+\section{XXXX}
+
+\paragraph{XXXX.}
+
+\subsection{XXXX}
+
+\begin{itemize}
+    \bitem{XXXX}{XXXX.}
+    \bitem{XXXX}{XXXX.}
+\end{itemize}
+
+\begin{itemize}
+  \item{XXXXX.}
+  \item{XXXXX.}
+\end{itemize}
+
+\end{huge}
+%---------------------------- TEMP ----------------------------
+
+%---------------------------- SECTION ----------------------------
+\newpage
+\section{Chapter Summary}
+In this chapter we learned about the following key points:
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\textwidth}{ | >{\raggedright\arraybackslash}p{0.35\textwidth} 
+								| >{\raggedright\arraybackslash}p{0.35\textwidth} 
+                                | >{\raggedright\arraybackslash}X | }
+    \hline
+    \textbf{COL01} & \textbf{COL02} & \textbf{COL03} \\
+    \hline
+    \textbf{ITEMX1} & ITEMX2 & ITEMX3\\
+    \hline
+    \textbf{ITEMX1} & ITEMX2 & ITEMX3\\
+    \hline
+    \textbf{ITEMX1} & ITEMX2 & ITEMX3\\
+    \hline
+    \textbf{ITEMX1} & ITEMX2 & ITEMX3\\
+    \hline
+  \end{tabularx}
+  \caption{FIGURE NAME XXX}
+\end{table}
+
+\paragraph{Key takeaways:}
+\begin{itemize}
+  \item{XXXXX.}
+  \item{XXXXX.}
+  \item{XXXXX.}
+  \item{XXXXX.}
+\end{itemize}
+
+\barquote{XXXXXXXX.}
